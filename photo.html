@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stickerbooth.css"/>
+    <script src="jquery-1.12.0.min.js"></script>
+    
+    <script src="stickeredit.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
+    
+    <title>Sticker Booth</title>
+</head>
+<body>
+
+<div id="wrapper">
+
+    <div id="framing">
+        <div id="des">
+            <p><br><br><br>&nbsp;&nbsp;&nbsp;<b>Move&nbsp;:</b><br>&nbsp;&nbsp&nbsp;Up/Down/Left/Right arrow
+            <br><br>&nbsp;&nbsp;&nbsp;<b>Resize&nbsp;:</b><br>&nbsp;&nbsp&nbsp;Shift&nbsp;+&nbsp;Up/Down&nbsp;arrow
+            <br><br>&nbsp;&nbsp;&nbsp;<b>Rotate&nbsp;:</b><br>&nbsp;&nbsp&nbsp;Shift&nbsp;+&nbsp;Left/Right&nbsp;arrow
+            <br><br>&nbsp;&nbsp;&nbsp;<b>Remove&nbsp;:</b><br>&nbsp;&nbsp&nbsp;Shift&nbsp;+&nbsp;Backspace
+        </div>
+        <canvas id="photo" width="800" height="600"></canvas>
+        <div id="camera"></div>
+
+        <div id="countdown"></div>
+        <div id="overlay" class="dropped"></div>
+    </div>
+    <div id="camera-control">
+        <button onclick="capcam()">Shoot</button>
+    </div>
+    <div id="toolbar">
+        <ul id="sticker-list">
+            <li><img src="sticker/glasses_01.png" class="sticker"/></li>
+            <li><img src="sticker/dognose.png" class="sticker"/></li>
+            <li><img src="sticker/tongue.png" class="sticker"/></li>
+            <li><img src="sticker/eye_01.png" class="sticker"/></li>
+            <li><img src="sticker/blush_01.png" class="sticker"/></li>
+            <li><img src="sticker/Santa_20Hat_400sq.png" class="sticker"/></li>
+            <li><img src="sticker/glasses_02.png" class="sticker"/></li>
+            <li><img src="sticker/rednose.png" class="sticker"/></li>
+        </ul>
+    </div>
+</div>
+</body>
+<script src="camera.js"></script>
+
+</html>

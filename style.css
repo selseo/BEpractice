@@ -1,0 +1,139 @@
+body{
+    background: #ff3f3f;
+}
+form {
+    text-align: center;
+    margin: 20px auto 40px;
+    height: 30px;
+}
+input[type="submit"]{
+    border-width: 3px;
+    background: none;
+    color:#f6dddd;
+    font-size: 24px;
+    border-color: #f6dddd;
+    padding:2px;
+    width: 100px;
+    text-align: center;
+    height:45px;
+}
+input[type="submit"]:hover{
+    border-width: 3px;
+    background: #f6dddd;
+    color:#ff3f3f;
+    font-size: 24px;
+    border-color: #f6dddd;
+    padding:2px;
+    width: 100px;
+    text-align: center;
+    height:45px;
+}
+form > *{
+    height: 100%;
+}
+input[type="text"]{
+    border:none;
+    border-bottom: 1px solid #f6dddd;
+    background: none;
+    color:#f0a2a2;
+    width: 200px;
+    font-size: 24px;
+}
+input[type="text"]:hover{
+    border:none;
+    border-bottom: 1px solid #f6dddd;
+    background: none;
+    width: 200px;
+    color:#f6dddd;
+    font-size: 24px;
+    font-style: italic;
+}
+#result {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.pin {
+    display: -moz-inline-box;
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    margin-left: 0;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+    z-index: 1;
+    padding: 10px;
+    margin:10px;
+    background: #ff6262;
+}
+#result:hover .pin:hover{
+    display: -moz-inline-box;
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    margin-left: 0;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+    z-index: 1;
+    padding: 10px;
+    margin:10px;
+    background: #ff9fad;
+}
+.pin h3{
+    font-size: 14px;
+    color: #333;
+    font-family: "Verdana";
+    padding: 10px;
+    margin:10px;
+    text-align: left;
+}
+.pin h2{
+    font-family: "Verdana";
+    font-size: 18px;
+    color: #222;
+    font-weight: bold;
+    padding: 10px;
+    margin:10px;
+    text-align: center;
+}
+.pin h1{
+    font-family: "Verdana";
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    margin:10px;
+    text-align: center;
+}
+.pin img{
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    margin:10px;
+    text-align: center;
+}
+.pin a{
+    color: #9f0000;
+    padding: 10px;
+    margin:10px;
+    text-align: left;
+}
+@media (min-width: 960px) {
+    #result {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (min-width: 1100px) {
+    #result {
+        -webkit-column-count: 5;
+        -moz-column-count: 5;
+        column-count: 5;
+    }
+}

@@ -1,0 +1,169 @@
+
+#all{
+	width:100%;
+	height:640px;
+	background: #018bce;
+	position: relative;
+}
+#top{
+	width:100%;
+	height:45%;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	background: #004d94;
+}
+#header{
+	height:100%;
+	width:60%;
+	position: relative;
+	display: inline-block;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+#pic{
+	background-image: url("img/profile.jpg");
+	height:90%;
+	width:33%;
+	position:relative;
+	left:3%;
+	top:6%; 
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#quote{
+	height:90%;
+	width:65%;
+	position:relative;
+	left:5%;
+	top:2%;
+	text-align: center;
+	padding-top: 15%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#trust{
+	font-size: 32px;
+}
+.toptext{
+	font-family: Trebuchet MS;
+	color: white;
+}
+#first{
+	font-size: 28px;
+}
+#second{
+	font-size: 54px;
+}
+#go{
+	height:100%;
+	width:40%;
+	position: relative;
+	display: inline-block;
+	top:40%;
+	left:4%;
+}
+#front{
+	color: #129fe3;
+	font-size: 20px;
+	text-align: center;
+	font-family: Trebuchet MS;
+}
+#button{
+	font-size: 40px;
+	text-align: center;
+	font-family: Trebuchet MS;
+	color:#004d94;
+	background:white; 
+	margin-top: 30px;
+	margin-left: 30%;
+	padding: 5px;
+	width: 40%;
+}
+#buttom{
+	width:100%;
+	height:45%;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.cover{
+	width:33.33%;
+	height:100%;
+	position: relative;
+	display: inline-block;
+}
+.skill{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width:100%;
+	height:100%;
+	position: absolute;
+}
+.skill:hover{
+	opacity: 0;
+}
+.under{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width:100%;
+	height:100%;
+	position: absolute;
+}
+#coding{
+	background-image: url("img/coding.png");
+	
+}
+#cdu{
+	background-image: url("img/coding-un.png");
+}
+#computer{
+	background-image: url("img/computer.png");
+}
+#cpu{
+	background-image: url("img/computer-un.png");
+}
+#other{
+	background-image: url("img/other.png");
+}
+#otu{
+	background-image: url("img/other-un.png");
+}
+#more{
+	width:100%;
+	height:10%;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	color: #0f1d51;
+	font-size: 18px;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-family: Trebuchet MS;
+}
+

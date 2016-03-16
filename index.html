@@ -1,4 +1,91 @@
 <html>
-<head><title>Hello</title></head>
-<body>Hello</body>
+	<head>
+		<meta charset="UTF-8">
+    	<link rel="stylesheet" href="style1.css"/>
+    	<link href="css/bootstrap.min.css" rel="stylesheet">
+		<title>Hello</title>
+	</head>
+	<body>
+		<div id='all'>
+			<div id='space'>
+			</div>
+			<div id='header'>
+				WEB PROGRAMMING
+			</div>
+			<div id='space2'>
+			</div>
+			<div id='alllk'>
+				<div class='lk' id='lk1'>
+					<div class='hinlk'>
+						CSS : 3D CSS
+					</div>
+					<div class='pinlk' id='p1'>
+					</div>
+					<div class='capinlk'>
+						Use CSS 3D to create the block and other picture.
+					</div>
+				</div>
+				<div class='lk' id='lk2'>
+					<div class='hinlk'>
+						Javascript : Photobooth
+					</div>
+					<div class='pinlk' id='p2'>
+					</div>
+					<div class='capinlk'>
+						Use javascript to capture an image from webcam and add/edit stickers on the image.
+					</div>
+				</div>
+				<div class='lk' id='lk3'>
+					<div class='hinlk'>
+						Ajax : Google search
+					</div>
+					<div class='pinlk' id='p3'>
+					</div>
+					<div class='capinlk'>
+						Use Ajax to use Google Knowledge search API and show the result.
+					</div>
+				</div>
+				<div class='lk' id='lk4'>
+					<div class='hinlk'>
+						Design : Resume
+					</div>
+					<div class='pinlk' id='p4'>
+					</div>
+					<div class='capinlk'>
+						Create the resume by using Web Design which studied in classroom.
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			document.getElementById("lk1").onclick = function() {
+				myFunction1()
+			};
+
+			function myFunction1() {
+    			window.location.href = 'page.html';
+			}
+			document.getElementById("lk2").onclick = function() {
+				myFunction2()
+			};
+
+			function myFunction2() {
+    			window.location.href = 'photo.html';
+			}
+			document.getElementById("lk3").onclick = function() {
+				myFunction3()
+			};
+
+			function myFunction3() {
+    			window.location.href = 'ggsearch.html';
+			}
+			document.getElementById("lk4").onclick = function() {
+				myFunction4()
+			};
+
+			function myFunction4() {
+    			window.location.href = 'resume.html';
+			}
+		</script>
+	</body>
 </html>

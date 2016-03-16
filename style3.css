@@ -1,0 +1,262 @@
+.tophead{
+	background: #257862;
+	color:#bfefff;
+	height: 80px;
+	width:800px;
+	padding:5px;
+	top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    position: absolute;
+
+}
+.topheadfront{
+	background: #226065;
+	width: 800px;
+    height: 10px;
+    transform-origin: top left;
+    top: -13px;
+    left: -8px;
+    transform: rotateX(270deg) translateZ(100px);
+    position: absolute;
+}
+.topheadleft{
+	background: #329f81;
+    width: 10px;
+    height: 80px;
+    transform: rotateY(270deg);
+    transform-origin: top left;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+.head{
+	width: 600px;
+    height: 80px;
+    margin: 20px;
+    transform-style: preserve-3d;
+
+}
+body{
+	background: #79cdcd
+}
+
+#buttonleft{
+    height:90px;
+	width: 200px;
+	font-size: 18px;
+	margin:10px;
+	padding: 10px;
+}
+
+.red{
+	background: #f08080;
+	cursor:pointer;
+}
+.green{
+	background: #b4eeb4;
+	cursor:pointer;
+}
+.yellow{
+	background: #f6ff63;
+	cursor:pointer;
+}
+.violet{
+	background: #e1c4c9;
+	cursor:pointer;
+}
+.red:hover{
+	background: #cc0033;
+	cursor:pointer;
+}
+.green:hover{
+	background: #00bb33;
+	cursor:pointer;
+}
+.yellow:hover{
+	background: #cdad00;
+	cursor:pointer;
+}
+.violet:hover{
+	background: #ba3ba3;
+	cursor:pointer;
+}
+.left{
+	display: inline-block;
+}
+.right{
+	display: inline-block;
+	height: 500px;
+}
+.data{
+	display: inline-block;
+	margin:10px;
+}
+.loginform{
+	display:inline;
+	height: 200px;
+	margin:50px;
+}
+#formf{
+	color:#226065;
+}
+.circleleft{
+	width: 160px;
+	height: 160px;
+	background: #eedc82;
+	border-radius:90px;
+	margin:10px;
+}
+.quarterleft{
+    width: 80px;
+	height: 80px;
+	background: #fffacd none repeat scroll 0% 0%;
+	border-radius: 90px 0px 0px;
+	display: inline-block;
+	-moz-border-radius: 90px 0 0 0;
+    -webkit-border-radius: 90px 0 0 0;
+ }
+ .percentleft{
+	border-radius: 50%;
+    vertical-align: middle;
+    left:65%;
+    top:65%;
+    position:relative;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    background: #cdbe70;
+    border: 2px solid #666;
+    color: #666;
+}
+.circleright{
+	width: 160px;
+	height: 160px;
+	background: #fffacd;
+	border-radius:90px;
+	margin:10px;
+}
+.quarterright{
+    width: 80px;
+	height: 80px;
+	background: #eedc82 none repeat scroll 0% 0%;
+	display: inline-block;
+	position:relative;
+    border-radius: 0 80px 0 0;
+    -moz-border-radius: 0 90px 0 0;
+    -webkit-border-radius: 0 90px 0 0;
+ }
+ .percentright{
+	border-radius: 50%;
+    vertical-align: middle;
+    right:35%;
+    top:65%;
+    position:relative;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    background: #cdbe70;
+    border: 2px solid #666;
+    color: #666;
+}
+.free{
+	width:80px;
+	height:80px;
+	position:relative;
+	display: inline-block;
+}
+.num{
+	left:32.5%;
+    top:32.5%;
+    width: 36px;
+    height: 36px;
+    padding: 5px;
+    text-align: center;
+}
+.textunder{
+	text-align: center;
+	margin:10px;
+	color:#226065;
+}
+#name{
+	margin:10px;
+}
+#password{
+	margin:10px;
+}
+.button{
+	width:200px;
+	height: 50px;
+	background:yellow;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom:10px;
+	padding-left: 50px;
+	padding-right: 50px; 
+	margin:10px;
+}
+input[type="text"]{
+	border:none;
+	border-bottom: 1px solid #226065;
+	background: none;
+	width: 200px;
+}
+input[type="text"]:hover{
+	border:none;
+	border-bottom: 1px solid #226065;
+	background: none;
+	width: 200px;
+	color:#696969;
+	font-style: italic;
+}
+input[type="password"]{
+	border:none;
+	border-bottom: 1px solid #226065;
+	background: none;
+	width: 200px;
+}
+input[type="password"]:hover{
+	border:none;
+	border-bottom: 1px solid #226065;
+	background: none;
+	width: 200px;
+	color:#696969;
+	font-style: italic;
+}
+input[type="button"]{
+	color:#08233e;
+    font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+    font-size:70%;
+    cursor:pointer;
+    background: none;
+    width: 250px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 8px;
+}
+input[type="button"]:hover{
+	color:#567890;
+    font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+    font-size:70%;
+    cursor:pointer;
+    background: #1b2d45;
+    width: 250px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 8px;
+}
+#rotate-x .panel {
+    transform: rotateX(-50deg) rotateY(-10deg) rotateZ(-40deg);
+    transform-style: preserve-3d;
+
+}
+.panel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 1;
+}
+
+
+
